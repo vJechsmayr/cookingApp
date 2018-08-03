@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecipeDetailComponent implements OnInit {
 
+  status: string = "false";
+
   constructor() { }
 
   ngOnInit() {
   }
+
+serverStatus(){
+  return "true";
+}
 
 }
